@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('shopping', function (Blueprint $table) {
             $table->id();
-            $table->string('Name');
-            $table->dateTime('CreatedDate');
+            $table->string('name');
+            $table->dateTime('created_date');
         });
     }
 
